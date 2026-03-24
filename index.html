@@ -1,272 +1,249 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishnu Prakasan | Portfolio</title>
     <meta name="description" content="Portfolio of Vishnu Prakasan - Customer Support Professional & Cybersecurity Enthusiast">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <header class="navbar">
-        <div class="container nav-content">
-            <a href="#" class="logo">vishnu.<span class="accent">prakasan</span></a>
-            <nav class="nav-links">
-                <a href="#about" class="nav-item">About</a>
-                <a href="#experience" class="nav-item">Experience</a>
-                <a href="#skills" class="nav-item">Skills</a>
-                <a href="#projects" class="nav-item">Projects</a>
-                <a href="#contact" class="nav-item">Contact</a>
-            </nav>
-            <button class="mobile-menu-btn" aria-label="Toggle Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
+    
+    <header id="site-nav">
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link" style="color: var(--primary-text);">vishnu prakasan</a></li>
+                <li class="divider" aria-hidden="true"></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#experience" class="nav-link">experience</a></li>
+                <li><a href="#projects" class="nav-link">work</a></li>
+                <li><a href="#skills" class="nav-link">stack</a></li>
+                <li><a href="#education" class="nav-link">education</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero section-spacing relative">
-            <div class="container hero-content reveal">
-                <p class="mono-subtitle accent">Hi, my name is</p>
-                <h1 class="hero-title">Vishnu Prakasan.</h1>
-                <h2 class="hero-subtitle">Securing systems & sustaining support.</h2>
-                <p class="hero-description">
-                    I'm a Customer Support Professional with over 3 years of experience handling real-time user issues, currently transitioning into Cybersecurity. I specialize in problem-solving, threat analysis, and delivering robust Level 1 support.
-                </p>
-                <div class="hero-actions">
-                    <a href="#projects" class="btn btn-primary">Check out my work</a>
-                    <a href="#contact" class="btn btn-outline">Get in touch</a>
+        <header class="header container fade-in">
+            <div class="hero-label">Customer Support & Cybersecurity</div>
+            <h1 class="name">
+                <span class="name-line">vishnu</span>
+                <span class="name-line">prakasan</span>
+            </h1>
+            <p class="title">Securing systems & sustaining support. I handle real-time user issues and build security tools.</p>
+            <div class="hero-links">
+                <a href="mailto:vishnu.puravathu@gmail.com">mail</a>
+                <a href="https://linkedin.com/in/vishnuprakasann" target="_blank" rel="noopener">linkedin</a>
+            </div>
+        </header>
+
+        <section id="about" class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">about</h2>
+                </div>
+                <div class="about-content">
+                    <p>Hello! I'm Vishnu, a dedicated professional based in Kochi, Kerala. My journey began in customer support, where I honed my ability to logically diagnose issues, manage high-volume environments, and communicate effectively with users.</p>
+                    <p>Fast-forward to today, I am pursuing my MCA and intensely focusing on Cybersecurity. I am fascinated by threat detection, log analysis, and vulnerability assessments. When I'm not studying or working, you'll often find me building small security tools or simulating SOC operations.</p>
                 </div>
             </div>
-            <div class="hero-background"></div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="section-spacing">
-            <div class="container reveal">
-                <h2 class="section-title"><span class="accent">01.</span> About Me</h2>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>Hello! I'm Vishnu, a dedicated professional based in Kochi, Kerala. My journey began in customer support, where I honed my ability to logically diagnose issues, manage high-volume environments, and communicate effectively with users.</p>
-                        <p>Fast-forward to today, I am pursuing my MCA and intensely focusing on <span class="accent">Cybersecurity</span>. I am fascinated by threat detection, log analysis, and vulnerability assessments. My goal is to bridge my extensive support experience with deep technical security practices, contributing to product support and security operations.</p>
-                        <p>When I'm not studying or working, you'll often find me building small security tools or simulating SOC operations to improve my practical skills.</p>
-                    </div>
-                    <div class="about-stats">
-                        <div class="stat-card">
-                            <h3>3+ Years</h3>
-                            <p>Support Experience</p>
+        <section id="experience" class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">experience</h2>
+                </div>
+                <div class="flagship-grid">
+                    <div class="flagship slide-up" style="animation-delay: 0s">
+                        <div class="flagship-header">
+                            <span class="flagship-label">Apr 2023 - Present</span>
                         </div>
-                        <div class="stat-card">
-                            <h3>MCA Pursuing</h3>
-                            <p>Advanced Computing</p>
+                        <h3 class="flagship-title">Sutherland (Amazon)</h3>
+                        <p class="flagship-description">Customer Support Associate. Resolved 50+ customer queries daily via chat with high accuracy. Diagnosed issues using internal tools, applied basic security awareness, and utilized AI prompt engineering to optimize responses.</p>
+                        <div class="flagship-tech">
+                            <span class="tech-tag">crm systems</span>
+                            <span class="tech-tag">ticketing</span>
+                            <span class="tech-tag">troubleshooting</span>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="section-spacing">
-            <div class="container reveal">
-                <h2 class="section-title"><span class="accent">02.</span> Where I've Worked</h2>
-                <div class="experience-card">
-                    <div class="exp-header">
-                        <h3>Customer Support Associate <span class="accent">@ Sutherland (Amazon)</span></h3>
-                        <p class="mono-date">Apr 2023 – Present</p>
-                    </div>
-                    <ul class="exp-list">
-                        <li>Resolved 50+ customer queries daily via chat with high accuracy and satisfaction.</li>
-                        <li>Diagnosed and troubleshot user issues using internal tools and comprehensive knowledge bases.</li>
-                        <li>Applied basic security awareness, identifying suspicious activities and ensuring safe account practices.</li>
-                        <li>Collaborated with internal teams to escalate and resolve complex issues efficiently while documenting clear resolutions.</li>
-                        <li>Contributed to knowledge base improvements, utilizing AI prompt engineering to optimize support responses and reduce repeat queries.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section-spacing">
-            <div class="container reveal">
-                <h2 class="section-title"><span class="accent">03.</span> Technical Arsenal</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Cybersecurity</h3>
-                        <ul class="skill-tags">
-                            <li>SIEM Basics</li>
-                            <li>Log Analysis</li>
-                            <li>Threat Detection</li>
-                            <li>Incident Response</li>
-                            <li>Vulnerability Assessment</li>
-                            <li>Network Security (TCP/IP)</li>
-                            <li>CIA Triad</li>
-                            <li>Access Control</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Development</h3>
-                        <ul class="skill-tags">
-                            <li>Python (Basic)</li>
-                            <li>Java</li>
-                            <li>PHP</li>
-                            <li>HTML & CSS</li>
-                            <li>Linux CLI</li>
-                            <li>Selenium</li>
-                            <li>TestCafe</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Support & Tools</h3>
-                        <ul class="skill-tags">
-                            <li>CRM Systems</li>
-                            <li>Ticketing Systems</li>
-                            <li>Knowledge Base Mgmt</li>
-                            <li>Prompt Engineering</li>
-                            <li>Microsoft Office</li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="section-spacing">
-            <div class="container reveal">
-                <h2 class="section-title"><span class="accent">04.</span> Some Things I've Built</h2>
-                <div class="project-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card">
-                        <div class="project-top">
-                            <div class="folder-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Password Strength Checker</h3>
-                        <p class="project-desc">A password strength and generation tool (JADHU.KEYGEN) with real-time validation based on length, complexity, and character diversity.</p>
-                        <ul class="project-tech">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                    <!-- Project 2 -->
-                    <div class="project-card">
-                        <div class="project-top">
-                            <div class="folder-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Phishing Detection Demo</h3>
-                        <p class="project-desc">Simulates real-world phishing attacks to demonstrate identification of malicious URLs and social engineering tactics for security awareness.</p>
-                        <ul class="project-tech">
-                            <li>Web Tech</li>
-                            <li>Security Edu</li>
-                        </ul>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="project-card">
-                        <div class="project-top">
-                            <div class="folder-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                            </div>
-                        </div>
-                        <h3 class="project-title">Log Analyzer (WIP)</h3>
-                        <p class="project-desc">Python-based SOC simulation tool detecting suspicious activities like repeated login failures and abnormal usage patterns.</p>
-                        <ul class="project-tech">
-                            <li>Python</li>
-                            <li>SOC Sim</li>
-                            <li>Log Analysis</li>
-                        </ul>
-                    </div>
+        <section id="projects" class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">featured work</h2>
                 </div>
-            </div>
-        </section>
-
-        <!-- Education & Certifications Section -->
-        <section id="education" class="section-spacing">
-            <div class="container reveal flex-cols">
-                <div class="col">
-                    <h2 class="section-title"><span class="accent">05.</span> Education</h2>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <h4>Master of Computer Applications</h4>
-                            <p class="mono-date">IGNOU · 2025 – Present</p>
+                <div class="flagship-grid">
+                    <div class="flagship slide-up" style="animation-delay: 0s">
+                        <div class="flagship-header">
+                            <span class="flagship-label">Featured</span>
                         </div>
-                        <div class="timeline-item">
-                            <h4>Bachelor of Computer Applications</h4>
-                            <p class="mono-date">Siena College (MG University) · 2018 – 2021</p>
+                        <h3 class="flagship-title">JADHU.KEYGEN</h3>
+                        <p class="flagship-description">A password strength and generation tool with real-time validation based on length, complexity, and character diversity.</p>
+                        <div class="flagship-tech">
+                            <span class="tech-tag">html</span>
+                            <span class="tech-tag">css</span>
+                            <span class="tech-tag">javascript</span>
                         </div>
-                        <div class="timeline-item">
-                            <h4>Higher Secondary Education</h4>
-                            <p class="mono-date">SDPY HSS · 2016 – 2018</p>
+                        <div class="flagship-links">
+                            <a href="#" class="flagship-link">view source<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"></path></svg></a>
+                            <a href="https://jadhu-keygen.vercel.app/" target="_blank" rel="noopener noreferrer" class="flagship-link">live<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"></path></svg></a>
                         </div>
                     </div>
                     
-                    <h2 class="section-title mt-xl"><span class="accent">Volunteering</span></h2>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <h4>National Cadet Corps (Corporal)</h4>
-                            <p class="mono-date">21(k) bn · 2013 – 2021</p>
-                            <p class="sm-desc">Leadership training, teamwork exercises, and community service initiatives.</p>
+                    <div class="flagship slide-up" style="animation-delay: 0.15s">
+                        <div class="flagship-header">
+                            <span class="flagship-label">Featured</span>
+                        </div>
+                        <h3 class="flagship-title">Phishing Detection Demo</h3>
+                        <p class="flagship-description">Simulates real-world phishing attacks to demonstrate identification of malicious URLs and social engineering tactics for security awareness.</p>
+                        <div class="flagship-tech">
+                            <span class="tech-tag">web tech</span>
+                            <span class="tech-tag">security edu</span>
+                        </div>
+                        <div class="flagship-links">
+                            <a href="#" class="flagship-link">view source<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"></path></svg></a>
+                            <a href="#" class="flagship-link">live<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"></path></svg></a>
                         </div>
                     </div>
-                </div>
-                
-                <div class="col">
-                    <h2 class="section-title"><span class="accent">06.</span> Certifications</h2>
-                    <ul class="cert-list">
-                        <li>
-                            <div class="cert-card">
-                                <h4>Google Cybersecurity</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="cert-card">
-                                <h4>Fundamentals of ChatGPT and Generative AI</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="cert-card">
-                                <h4>Fundamentals of Shell</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="cert-card">
-                                <h4>Google - Hello, Python!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                    
+                    <div class="flagship slide-up" style="animation-delay: 0.3s">
+                        <div class="flagship-header">
+                            <span class="flagship-label">Featured</span>
+                        </div>
+                        <h3 class="flagship-title">Log Analyzer (WIP)</h3>
+                        <p class="flagship-description">Python-based SOC simulation tool detecting suspicious activities like repeated login failures and abnormal usage patterns.</p>
+                        <div class="flagship-tech">
+                            <span class="tech-tag">python</span>
+                            <span class="tech-tag">soc sim</span>
+                            <span class="tech-tag">log analysis</span>
+                        </div>
+                        <div class="flagship-links">
+                            <a href="#" class="flagship-link">view source<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"></path></svg></a>
+                            <a href="#" class="flagship-link">live<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"></path></svg></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section / Footer -->
-        <footer id="contact" class="section-spacing text-center">
-            <div class="container reveal">
-                <p class="mono-subtitle accent mb-sm">07. What's Next?</p>
-                <h2 class="contact-title">Get In Touch</h2>
-                <p class="contact-desc max-w-sm mx-auto">
-                    Whether you have a question about my experience, want to discuss cybersecurity, or just want to say hi, my inbox is always open!
-                </p>
-                <a href="mailto:vishnu.puravathu@gmail.com" class="btn btn-primary mt-lg inline-block">Say Hello</a>
-                
-                <div class="social-links mt-xl">
-                    <a href="https://linkedin.com/in/vishnuprakasann" target="_blank" aria-label="LinkedIn">
-                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                    </a>
+        <section id="skills" class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">stack</h2>
                 </div>
-                
-                <p class="footer-credit mono-date mt-lg">
-                    Designed & Built by Vishnu Prakasan
-                </p>
+                <div class="skills-grouped">
+                    <div class="skill-group slide-up" style="animation-delay: 0s">
+                        <span class="skill-group-label">Cybersecurity</span>
+                        <div class="skill-group-items">
+                            <span class="skill-tag">SIEM Basics</span>
+                            <span class="skill-tag">Log Analysis</span>
+                            <span class="skill-tag">Threat Detection</span>
+                            <span class="skill-tag">Incident Response</span>
+                            <span class="skill-tag">Vulnerability Assessment</span>
+                            <span class="skill-tag">Network Security</span>
+                        </div>
+                    </div>
+                    <div class="skill-group slide-up" style="animation-delay: 0.1s">
+                        <span class="skill-group-label">Development</span>
+                        <div class="skill-group-items">
+                            <span class="skill-tag">Python (Basic)</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Linux CLI</span>
+                        </div>
+                    </div>
+                    <div class="skill-group slide-up" style="animation-delay: 0.2s">
+                        <span class="skill-group-label">Support & Tools</span>
+                        <div class="skill-group-items">
+                            <span class="skill-tag">CRM Systems</span>
+                            <span class="skill-tag">Ticketing Systems</span>
+                            <span class="skill-tag">Knowledge Base Mgmt</span>
+                            <span class="skill-tag">Prompt Engineering</span>
+                            <span class="skill-tag">Microsoft Office</span>
+                        </div>
+                    </div>
+                    <div class="skill-group slide-up" style="animation-delay: 0.3s">
+                        <span class="skill-group-label">Certifications</span>
+                        <div class="skill-group-items">
+                            <span class="skill-tag">Google Cybersecurity</span>
+                            <span class="skill-tag">Gen AI Fundamentals</span>
+                            <span class="skill-tag">Google Python</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>
+        </section>
+
+        <section id="education" class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">05</span>
+                    <h2 class="section-title">education & volunteering</h2>
+                </div>
+                <div class="building-list">
+                    <div class="building-item slide-up" style="animation-delay: 0s">
+                        <div class="building-status"><span class="status-dot"></span></div>
+                        <div class="building-info">
+                            <span class="building-name">Master of Computer Applications</span>
+                            <span class="building-desc">Indira Gandhi National Open University (IGNOU) · 2025 – Present</span>
+                        </div>
+                    </div>
+                    <div class="building-item slide-up" style="animation-delay: 0.1s">
+                        <div class="building-status"><span class="status-dot"></span></div>
+                        <div class="building-info">
+                            <span class="building-name">Bachelor of Computer Applications</span>
+                            <span class="building-desc">Siena College (MG University) · 2018 – 2021</span>
+                        </div>
+                    </div>
+                    <div class="building-item slide-up" style="animation-delay: 0.2s">
+                        <div class="building-status"><span class="status-dot" style="background: var(--tertiary-text);"></span></div>
+                        <div class="building-info">
+                            <span class="building-name">National Cadet Corps 21(k) bn</span>
+                            <span class="building-desc">Corporal · 2013 – 2021 · Leadership training and community service initiatives.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">06</span>
+                    <h2 class="section-title">contact</h2>
+                </div>
+                <div class="contact-section">
+                    <div class="contact-info">
+                        <p>Open to collaboration, entry-level cybersecurity roles, and interesting challenges. Reach out directly.</p>
+                        <div class="contact-links">
+                            <a href="mailto:vishnu.puravathu@gmail.com" class="contact-link">
+                                <span>vishnu.puravathu@gmail.com</span>
+                            </a>
+                            <a href="https://linkedin.com/in/vishnuprakasann" class="contact-link" target="_blank" rel="noopener">
+                                <span>linkedin.com/in/vishnuprakasann</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer fade-in">
+        <div class="footer-inner">
+            <span class="footer-text">&copy; 2026 Vishnu Prakasan</span>
+            <span class="footer-text">Built with Custom HTML/CSS</span>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
