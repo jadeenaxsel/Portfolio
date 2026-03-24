@@ -1,4 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Theme Switcher Logic
+    const lightBtn = document.getElementById("theme-toggle-light");
+    const darkBtn = document.getElementById("theme-toggle-dark");
+    
+    // Default to dark
+    const currentTheme = localStorage.getItem("theme") || "dark";
+    document.documentElement.setAttribute("data-theme", currentTheme);
+    
+    const updateThemeButtons = (theme) => {
+        if (lightBtn && darkBtn) {
+            lightBtn.classList.toggle("active", theme === "light");
+            darkBtn.classList.toggle("active", theme === "dark");
+        }
+    };
+    updateThemeButtons(currentTheme);
+    
+    const switchTheme = (theme) => {
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+        updateThemeButtons(theme);
+    };
+    
+    if (lightBtn) lightBtn.addEventListener("click", () => switchTheme("light"));
+    if (darkBtn) darkBtn.addEventListener("click", () => switchTheme("dark"));
+
     // Reveal elements on scroll
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
