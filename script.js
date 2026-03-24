@@ -69,9 +69,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         navLinks.forEach(li => {
-            li.style.color = 'var(--secondary-text)';
+            li.style.color = ''; // remove inline styles if any
+            li.classList.remove('active');
             if (li.getAttribute('href') === `#${current}`) {
-                li.style.color = 'var(--primary-text)';
+                li.classList.add('active');
             }
         });
     });

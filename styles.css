@@ -554,6 +554,11 @@ a:hover {
   color: var(--primary-text);
 }
 
+#site-nav .nav-link.active {
+  background: var(--accent-color-alpha);
+  color: var(--accent-color);
+}
+
 .divider {
   background: var(--border-color);
   flex-shrink: 0;
